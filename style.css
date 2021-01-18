@@ -1,0 +1,44 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 50px;
+
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    margin-left: 6rem;
+}
+
+li {
+    border-right: 1px solid white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+main {
+    margin: 2rem 6rem;
+}
+#divideCont {
+    display: flex;
+    justify-content: space-between;
+}
+#divideCont div {
+    flex: 0 0 48%;
+}
+.article {
+    background-color:white;
+    padding: 1rem;
+    margin: 2rem 0;
+}
