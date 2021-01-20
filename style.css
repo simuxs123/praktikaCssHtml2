@@ -153,8 +153,8 @@ h2 {
 
 ul {
     height: 100%;
-    margin:0 auto;
-    width:80%;
+    margin: 0 auto;
+    width: 80%;
 }
 
 li {
@@ -170,16 +170,17 @@ main {
     margin: 2rem auto;
 }
 
-#divideCont {
+main>div:nth-child(2) {
     font-size: 0;
 }
- #divideCont div {
+
+main>div:nth-child(2)>div {
     display: inline-block;
     width: 50%;
     font-size: 1rem;
 }
 
-.article {
+main>div {
     background-color: white;
     padding: 1rem;
     margin: 2rem 0;
